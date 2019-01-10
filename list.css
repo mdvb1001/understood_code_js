@@ -1,0 +1,35 @@
+body {
+    background: lightgoldenrodyellow;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 42px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+}
+
+#newInput {
+    width: 40%;
+}
+
+#list {
+    border: 1px solid black;
+    width: 60%;
+    min-height: 100px;
+    margin: 30px auto;
+    color:black;
+    overflow: auto;
+}
+
+#item {
+    margin: 2% 2%;
+}
+
+#item:nth-child(3n) {
+    color: red;
+}
